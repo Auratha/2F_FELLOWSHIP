@@ -35,18 +35,21 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div
-      ref={galleryRef}
-      className="gallery-container w-full h-[700px] overflow-hidden scroll-smooth flex flex-shrink-0"
-    >
-      {[...Array(4)].map((_, index) => (
-        <img
-          src={`/gallery/gallery${index + 1}.jpg`}
-          alt={`gallery${index + 1}`}
-          className="min-w-full object-cover"
-        />
-      ))}
-    </div>
+    <section id="gallery">
+      <div
+        ref={galleryRef}
+        className="gallery-container w-full h-[700px] overflow-hidden scroll-smooth flex flex-shrink-0"
+      >
+        {[...Array(4)].map((_, index) => (
+          <img
+            key={index}
+            src={`/gallery/gallery${index + 1}.jpg`}
+            alt={`gallery${index + 1}`}
+            className="min-w-full object-cover"
+          />
+        ))}
+      </div>
+    </section>
   );
 };
 
