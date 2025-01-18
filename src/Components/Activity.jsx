@@ -4,9 +4,8 @@ function Activity() {
   return (
     <section id="activity">
       {/* Title */}
-      <div className="w-fit mx-auto text-3xl text-center font-bold my-6">
-        <h2>Activities</h2>
-        <div className="border-b-4 border-black mt-2 mx-6"></div>
+      <div className="w-fit ml-5 text-xl font-medium my-6 mb-3 md:text-3xl lg:text-2xl">
+        <h2>Activities &#8212;</h2>
       </div>
 
       {/* Grid Container */}

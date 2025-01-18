@@ -3,18 +3,22 @@ import React from "react";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="w-full px-4 mb-4 sm:mb-0 h-[400px] sm:h-[700px]">
-        <h1 className="w-4/5 mt-20 sm:mt-0 sm:pr-2 font-bold text-4xl sm:text-5xl md:text-6xl sm:absolute top-[30%] sm:left-5 md:left-10 sm:transform sm:-translate-y-[30%]">
-          Welcome to 2F Fellowship! A Place to Belong, Worship, and Grow.
-        </h1>
-        <h2 className="text-lg mt-4 sm:mt-0 sm:w-1/5 sm:absolute sm:top-[65%] sm:left-[60%] sm:transform sm:-translate-x-[60%]">
-          Join us every Saturday as we come together in fellowship, worship
-          Jesus, and welcome new friends into our family.
-        </h2>
-        <h2 className="text-lg mt-4 sm:mt-0 sm:w-1/5 sm:absolute sm:top-[65%] sm:left-[90%] sm:transform sm:-translate-x-[90%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta odio
-          suscipit illo nemo
-        </h2>
+      <div className="w-full px-7 mb-4 sm:mb-0">
+        <div className="flex flex-col my-40 pr-6 space-y-20 lg:mt-14 lg:space-y-32 lg:my-96">
+          <div className="max-w-lg md:max-w-3xl lg:max-w-6xl text-4xl md:text-6xl lg:text-8xl">
+            Welcome to 2F Fellowship! A place to belong, worship, and grow.
+          </div>
+          <div className="flex flex-col space-y-2 text-xl md:text-2xl lg:space-y-0 lg:space-x-8 lg:w-1/2 lg:flex-row lg:absolute lg:top-96 lg:right-20">
+            <div>
+              Join us every Saturday as we come together in fellowship, worship
+              Jesus, and welcome new friends into our family.
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              odio suscipit illo nemo
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
