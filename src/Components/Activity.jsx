@@ -14,7 +14,7 @@ function Activity() {
         <div className="space-y-6">
           <div>
             <img
-              src="/activity_gallery/ag_1.jpeg"
+              src="/activity_gallery/activity1.jpg"
               alt="Activity 1"
               className="w-full mb-6"
             />

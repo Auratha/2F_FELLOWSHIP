@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NBInternational";
+  src: url("./font/NB International Regular.otf");
+}
+
 html {
   scroll-behavior: smooth;
 }
