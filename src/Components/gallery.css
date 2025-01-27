@@ -1,0 +1,27 @@
+/* For Gallery */
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 25px; /* Adjust the icon size as needed */
+}
+
+@media (min-width: 640px){
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 40px; /* Adjust the icon size as needed */
+  }
+}
+
+@media (min-width: 768px){
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 45px; /* Adjust the icon size as needed */
+  }
+}
+
+  @media (min-width: 1024px){
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+      font-size: 50px; /* Adjust the icon size as needed */
+      }
+  }
