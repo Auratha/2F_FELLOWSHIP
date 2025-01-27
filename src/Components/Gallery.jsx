@@ -25,7 +25,7 @@ export default function Gallery() {
         modules={[Pagination, Navigation]}
         className="mySwiper h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
       >
-        {[...Array(4)].map((_, index) => {
+        {[...Array(7)].map((_, index) => {
           return (
             <SwiperSlide key={index}>
               <img
