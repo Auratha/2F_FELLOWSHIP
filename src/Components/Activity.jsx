@@ -4,7 +4,7 @@ function Activity() {
   return (
     <section id="activity">
       {/* Title */}
-      <div className="w-fit ml-5 text-xl font-medium my-6 mb-3 md:text-3xl lg:text-2xl">
+      <div className="w-fit ml-5 text-xl font-bold my-6 mb-3 md:text-3xl lg:text-2xl">
         <h2>Activities &#8212;</h2>
       </div>
 
