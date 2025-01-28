@@ -8,14 +8,16 @@ const Hero = () => {
           <div className="max-w-lg font-bold md:max-w-3xl lg:max-w-6xl text-4xl md:text-6xl lg:text-8xl">
             Welcome to 2F Fellowship! A place to belong, worship, and grow.
           </div>
-          <div className="flex flex-col space-y-2 text-xl md:text-2xl lg:space-y-0 lg:space-x-8 lg:w-1/2 lg:flex-row lg:absolute lg:top-96 lg:right-20">
-            <div>
+          <div className="flex flex-col space-y-2 text-xl md:text-2xl lg:space-y-0 lg:space-x-16 lg:w-1/2 lg:flex-row lg:absolute lg:top-96 lg:right-20">
+            <div className="lg:w-1/2">
               Join us every Saturday as we come together in fellowship, worship
               Jesus, and welcome new friends into our family.
             </div>
             <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              odio suscipit illo nemo
+              <ul className="list-disc w-full">
+                <li>Location - Chiang Mai CCC Center</li>
+                <li>Time - 2pm to 4pm</li>
+              </ul>
             </div>
           </div>
         </div>
