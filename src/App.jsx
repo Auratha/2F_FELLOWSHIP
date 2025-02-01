@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Gallery from "./Components/Gallery";
 import Activity from "./Components/Activity";
+import Map from "./Components/Map";
 import Footer from "./Components/Footer";
 import SocialMedia from "./Components/SocialMedia";
 import ScanPopUp from "./Components/ScanPopUp";
@@ -21,6 +22,7 @@ function App() {
       <Hero />
       <Gallery />
       <Activity />
+      <Map />
       <Footer />
       <SocialMedia handleShowScanPopUp={handleShowScanPopUp} />
       <ScanPopUp

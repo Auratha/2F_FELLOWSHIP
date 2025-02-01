@@ -23,6 +23,7 @@ export default function Gallery() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
+        style={{ "--swiper-pagination-color": "#fff" }}
         className="mySwiper h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
       >
         {[...Array(7)].map((_, index) => {

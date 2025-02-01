@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`absolute p-24 bg-black left-6 right-6 top-20 shadow-xl z-100 ${
+          className={`absolute p-24 bg-black left-6 right-6 top-20 shadow-xl ${
             isMenuOpen ? "block" : "hidden"
           } md:hidden`}
         >
