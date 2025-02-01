@@ -38,7 +38,7 @@ function Activity() {
           <div>
             <img
               src="/activity_gallery/ag_4.jpeg"
-              alt="Activity 2"
+              alt="Activity 4"
               className="w-full mb-6"
             />
             <span>15.01.25</span>
@@ -55,8 +55,8 @@ function Activity() {
           </div>
           <div className="sm:block lg:hidden hidden">
             <img
-              src="/activity_gallery/ag_3.jpeg"
-              alt="Activity 5"
+              src="/activity_gallery/activity3.jpg"
+              alt="Activity 3"
               className="w-full mb-6"
             />
             <span>15.01.25</span>
@@ -82,8 +82,8 @@ function Activity() {
         <div className="space-y-6">
           <div>
             <img
-              src="/activity_gallery/ag_2.jpeg"
-              alt="Activity 3"
+              src="/activity_gallery/activity2.jpg"
+              alt="Activity 2"
               className="w-full mb-6"
             />
             <span>15.01.25</span>
@@ -106,7 +106,7 @@ function Activity() {
           <div>
             <img
               src="/activity_gallery/ag_5.jpeg"
-              alt="Activity 4"
+              alt="Activity 5"
               className="w-full mb-6"
             />
             <span>15.01.25</span>
@@ -147,8 +147,8 @@ function Activity() {
         <div className="space-y-6 lg:block sm:hidden">
           <div>
             <img
-              src="/activity_gallery/ag_3.jpeg"
-              alt="Activity 5"
+              src="/activity_gallery/activity3.jpg"
+              alt="Activity 3"
               className="w-full mb-6"
             />
             <span>15.01.25</span>
@@ -189,17 +189,6 @@ function Activity() {
           </div>
         </div>
       </div>
-
-      <h4 className="mb-4 text-4xl text-center">Our Location</h4>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.666123228664!2d99.01509257497044!3d18.81302698233816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da25323ca4b707%3A0xb4df958552bccb5a!2sChiang%20Mai%20CCC%20Center!5e0!3m2!1smy!2sth!4v1737818191784!5m2!1smy!2sth"
-        className="w-[90%] mx-auto"
-        height={450}
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
     </section>
   );
 }

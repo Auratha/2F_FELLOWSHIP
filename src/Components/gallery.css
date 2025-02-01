@@ -3,25 +3,41 @@
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 25px; /* Adjust the icon size as needed */
+  color: #fff;
+  animation: pulse 2s infinite;
 }
 
-@media (min-width: 640px){
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 640px) {
   .swiper-button-next::after,
   .swiper-button-prev::after {
     font-size: 40px; /* Adjust the icon size as needed */
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .swiper-button-next::after,
   .swiper-button-prev::after {
     font-size: 45px; /* Adjust the icon size as needed */
   }
 }
 
-  @media (min-width: 1024px){
-      .swiper-button-next::after,
-      .swiper-button-prev::after {
-      font-size: 50px; /* Adjust the icon size as needed */
-      }
+@media (min-width: 1024px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 50px; /* Adjust the icon size as needed */
   }
+}
