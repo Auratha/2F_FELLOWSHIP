@@ -16,10 +16,10 @@ function Activity() {
             <img
               src="/activity_gallery/activity1.jpg"
               alt="Activity 1"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -39,10 +39,10 @@ function Activity() {
             <img
               src="/activity_gallery/ag_4.jpeg"
               alt="Activity 4"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -57,10 +57,10 @@ function Activity() {
             <img
               src="/activity_gallery/activity3.jpg"
               alt="Activity 3"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -84,10 +84,10 @@ function Activity() {
             <img
               src="/activity_gallery/activity2.jpg"
               alt="Activity 2"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -107,10 +107,10 @@ function Activity() {
             <img
               src="/activity_gallery/ag_5.jpeg"
               alt="Activity 5"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -126,10 +126,10 @@ function Activity() {
             <img
               src="/activity_gallery/ag_6.jpeg"
               alt="Activity 6"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -149,10 +149,10 @@ function Activity() {
             <img
               src="/activity_gallery/activity3.jpg"
               alt="Activity 3"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img "
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed
@@ -172,10 +172,10 @@ function Activity() {
             <img
               src="/activity_gallery/ag_6.jpeg"
               alt="Activity 6"
-              className="w-full mb-6"
+              className="w-full mb-6 activity-img"
             />
-            <span>15.01.25</span>
-            <p className="text-gray-700 mt-2 mb-24">
+            <p className="activity-text">15.01.25</p>
+            <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
               laoreet felis non sem imperdiet malesuada non vitae metus. Sed

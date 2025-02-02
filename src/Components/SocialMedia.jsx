@@ -3,7 +3,7 @@ import React from "react";
 const SocialMedia = ({ handleShowScanPopUp }) => {
   return (
     <div
-      className="h-10 fixed top-[50%] right-0 transform -translate-y-[50%] bg-red-300"
+      className="h-10 fixed top-[50%] right-0 transform -translate-y-[50%] social-sidebar"
       onClick={handleShowScanPopUp}
     >
       <img

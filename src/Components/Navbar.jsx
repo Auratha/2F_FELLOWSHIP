@@ -10,13 +10,13 @@ const Navbar = () => {
   return (
     <nav className="bg-white py-4 px-7 flex justify-between items-center sticky top-0">
       <div className="flex items-center justify-between w-full">
-        <div className="text-white text-lg font-bold flex items-center space-x-2">
+        <div className="text-white text-lg font-bold flex items-center space-x-2 navbar-ani-left">
           <a href="/">
             <img src="/2FLogo.png" alt="2FLogo" width="50px" />
           </a>
           <img src="/2FText.png" alt="2FText" width="120px" />
         </div>
-        <div className="hidden h-10 text-2xl font-medium md:flex md:space-x-8">
+        <div className="hidden h-10 text-2xl font-medium md:flex md:space-x-8 navbar-ani-right">
           <div className="group">
             <a href="#">Home</a>
             <div className="mx-2 group-hover:border-b-2 group-hover:border-black"></div>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`absolute p-24 bg-black left-6 right-6 top-20 shadow-xl ${
+          className={`absolute p-24 bg-black left-6 right-6 top-20 shadow-xl z-10 ${
             isMenuOpen ? "block" : "hidden"
           } md:hidden`}
         >

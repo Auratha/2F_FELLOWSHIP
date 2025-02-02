@@ -13,7 +13,7 @@ import { Pagination, Navigation } from "swiper/modules";
 
 export default function Gallery() {
   return (
-    <div id="gallery">
+    <div id="gallery" className="relative">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -24,9 +24,9 @@ export default function Gallery() {
         navigation={true}
         modules={[Pagination, Navigation]}
         style={{ "--swiper-pagination-color": "#fff" }}
-        className="mySwiper h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
+        className="mySwiper h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] w-[90%] mx-auto"
       >
-        {[...Array(7)].map((_, index) => {
+        {[...Array(16)].map((_, index) => {
           return (
             <SwiperSlide key={index}>
               <img
