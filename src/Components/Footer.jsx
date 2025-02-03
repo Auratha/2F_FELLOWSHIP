@@ -15,7 +15,7 @@ function Footer() {
             Facebook
           </div>
           <div className="w-fit text-decoration-line: underline cursor-pointer">
-            Phone Number
+            +66 947769315
           </div>
         </div>
       </div>
