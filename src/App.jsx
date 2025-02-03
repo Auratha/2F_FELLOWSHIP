@@ -71,9 +71,10 @@ function App() {
     gsap.from(".activity-img", {
       scale: 0,
       ease: "none",
-      duration: 3,
+      duration: 6,
+      stagger: 1,
       scrollTrigger: {
-        trigger: "#activity",
+        trigger: ".activity-img",
         start: "top center",
       },
     });
@@ -82,7 +83,8 @@ function App() {
       scale: 0,
       x: -200,
       ease: "none",
-      duration: 3,
+      duration: 4,
+      stagger: 1,
       scrollTrigger: {
         trigger: "#activity",
         start: "top center",
