@@ -18,7 +18,7 @@ function Activity() {
               alt="Activity 1"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">25.01.25</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -37,11 +37,11 @@ function Activity() {
           </div>
           <div>
             <img
-              src="/activity_gallery/ag_4.jpeg"
+              src="/activity_gallery/activity4.jpg"
               alt="Activity 4"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">12.11.24</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -59,7 +59,7 @@ function Activity() {
               alt="Activity 3"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">23.01.25</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -86,7 +86,7 @@ function Activity() {
               alt="Activity 2"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">01.02.25</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -105,11 +105,11 @@ function Activity() {
           </div>
           <div>
             <img
-              src="/activity_gallery/ag_5.jpeg"
+              src="/activity_gallery/activity5.jpg"
               alt="Activity 5"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">21.11.24</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -124,11 +124,11 @@ function Activity() {
           </div>
           <div className="sm:block lg:hidden hidden">
             <img
-              src="/activity_gallery/ag_6.jpeg"
+              src="/activity_gallery/activity6.jpg"
               alt="Activity 6"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">14.11.24</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -151,7 +151,7 @@ function Activity() {
               alt="Activity 3"
               className="w-full mb-6 activity-img "
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">23.01.25</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
@@ -170,11 +170,11 @@ function Activity() {
           </div>
           <div>
             <img
-              src="/activity_gallery/ag_6.jpeg"
+              src="/activity_gallery/activity6.jpg"
               alt="Activity 6"
               className="w-full mb-6 activity-img"
             />
-            <p className="activity-text">15.01.25</p>
+            <p className="activity-text">14.11.24</p>
             <p className="text-gray-700 mt-2 mb-24 activity-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tempus sapien lacus, in fringilla tortor scelerisque et. Duis
