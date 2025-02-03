@@ -11,9 +11,13 @@ function Footer() {
           <div>Chiang Mai</div>
         </div>
         <div className="flex flex-col md:flex-row md:space-x-8">
-          <div className="w-fit text-decoration-line: underline cursor-pointer">
+          <a
+            href="https://www.facebook.com/profile.php?id=61568460533254"
+            target="_blank"
+            className="w-fit text-decoration-line: underline cursor-pointer"
+          >
             Facebook
-          </div>
+          </a>
           <div className="w-fit text-decoration-line: underline cursor-pointer">
             +66 947769315
           </div>
