@@ -10,6 +10,7 @@ import { useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
+import { Analytics } from "@vercel/analytics/react";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -115,6 +116,7 @@ function App() {
 
   return (
     <div className="overflow-x-hidden">
+      <Analytics />
       <SocialMedia handleShowScanPopUp={handleShowScanPopUp} />
       <ScanPopUp
         showScanPopUp={showScanPopUp}
